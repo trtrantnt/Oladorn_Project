@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _onItemTapped(int index) {
     setState(() {
-      _selectedIndex = index; // Cập nhật chỉ số của tab được chọn
+      _selectedIndex = index;
     });
   }
 
